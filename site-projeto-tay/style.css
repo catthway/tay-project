@@ -1,11 +1,22 @@
-body {
+*{
+    width: 0;
+    padding: 0;
+}
+.cabecalho{
      background-color: rgb(51, 134, 134);
      color: aliceblue;
+     display: flex;
+     justify-content: space-around;
 }
  
+.alura-logo{
+    width: 20%;
+}
 
-
-
+.cabecalho-item-lista{
+    display: inline-block;
+    margin: 0 16px;
+}
 
 
 
